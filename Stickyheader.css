@@ -1,0 +1,43 @@
+.page-header {
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    position:absolute;
+    width: 100%;
+    min-width: 960;
+    z-index: 1;
+}
+.site-logo{
+    margin-top: 10;
+    height: 108;
+    width: 350;
+}
+.primary-nav{
+    width: 500;
+    height: 30;
+    margin-left: 470;
+}
+.page-header li {
+    font-size: 20;
+    list-style-type: none;
+    float: left;
+    margin-left: 40;
+}
+.page-header li a {
+    color:darkgray;
+    text-decoration: none;
+}
+
+
+.page-header.sticky {
+    position: fixed;
+    top: 0;
+}
+.page-header >.inner {
+    margin: auto;
+    width: 960;
+}
+.space {
+    width: 960;
+    height: 130;
+}

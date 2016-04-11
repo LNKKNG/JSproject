@@ -1,0 +1,45 @@
+.slideshow {
+    overflow: hidden;
+    position: relative;
+    min-width: 960;
+    height: 465;
+}
+.slideshow img {
+    display: none;
+    position: absolute;
+    left: 50%;
+    margin-left: -800;
+}
+.back-to-top {
+    background-color:gainsboro;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    padding: 23px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    
+    position: relative;
+    margin-top: 15;
+    margin-left: 632px;
+}
+.work-section {
+    position: relative;
+    margin-left: 200;
+}
+.about img {
+    margin-top: 10;
+    margin-left:35;    
+}
+.contact {
+    margin-top: 30;
+    height: 100;
+    width: 1349;
+    background-color: antiquewhite;
+}
+.content {
+    margin-left: 200;
+    color: darkgrey
+}
